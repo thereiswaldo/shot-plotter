@@ -1706,17 +1706,17 @@
             "specifications": "Crokinole.ca",
             "dimensions": "26 x 26",
             "scoringArea": null,
-            "perimeter": "#background",
+            "perimeter": "#oob-circle",
             "appearance": {
-                "width": "26",
-                "height": "26",
-                "circleR": "0.78",
-                "polyR": "1.0725",
-                "fontSize": "0.0585rem",
-                "strokeWidth": "0.195px",
-                "heatMapScale": 3.205,
-                "heatMapLowOpacity": 0.01,
-                "heatMapHighOpacity": 0.25
+                "width": "145",
+                "height": "90",
+                "circleR": "1.45",
+                "polyR": "1.99375",
+                "fontSize": "0.10875rem",
+                "strokeWidth": "0.3625px",
+                "heatMapScale": 1.724,
+                "heatMapLowOpacity": 0.1,
+                "heatMapHighOpacity": 0.4
             },
             "defaultDetails": [
                 {

@@ -1,5 +1,8 @@
 <svg id="crokinole-svg" xmlns="http://www.w3.org/2000/svg" width="100%" viewBox=" -1 -1 164 134">
   <g id="transformations">
+  <clipPath id="clipBorder">
+    <rect width="145" height="90" />
+  </clipPath>
   <circle id="background" cx="50" cy="50" r="50" fill="#036602" stroke="#aaa" stroke-width="0.5" />
   <circle id="20-hole" cx="50" cy="50" r="1.5" stroke="white" fill="transparent" stroke-width="0.3" />
   <circle id="15-circle" cx="50" cy="50" r="15" stroke="white" fill="transparent" stroke-width="0.3" />

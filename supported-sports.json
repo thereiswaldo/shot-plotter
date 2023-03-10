@@ -1708,8 +1708,8 @@
             "scoringArea": null,
             "perimeter": "#oob-circle",
             "appearance": {
-                "width": "145",
-                "height": "90",
+                "width": "220",
+                "height": "100",
                 "circleR": "1.45",
                 "polyR": "1.99375",
                 "fontSize": "0.10875rem",
@@ -1738,7 +1738,7 @@
                 },
                 {
                     "type": "team",
-                    "title": "Team",
+                    "title": "Player",
                     "className": "team-select",
                     "id": "team",
                     "blueTeamName": "Bottom",
@@ -1747,7 +1747,7 @@
                 },
                 {
                     "type": "player",
-                    "title": "Player",
+                    "title": "Comment",
                     "id": "player-input",
                     "defaultValue": ""
                 },
@@ -1756,7 +1756,8 @@
                     "title": "Type",
                     "id": "shot-type",
                     "options": [
-                        { "value": "Open 20", "selected": true },
+                        { "value": "Open 20 - 20", "selected": true },
+                        { "value": "Open 20 - 15" },
                         { "value": "Takeout" },
                         { "value": "Miss" },
                         { "value": "Converted 20" }

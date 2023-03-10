@@ -463,25 +463,25 @@ table .centered-cell {
 }
 
 polyline.blueTeam {
-  stroke: rgb(53, 171, 169);
+  stroke: rgb(0, 0, 0);
   opacity: 30%;
   fill-opacity: 0;
 }
 
 marker polygon.blueTeam {
-  stroke: rgb(53, 171, 169);
-  fill: rgb(53, 171, 169);
+  stroke: rgb(0, 0, 0);
+  fill: rgb(0, 0, 0);
 }
 
 polyline.orangeTeam {
-  stroke: rgb(234, 142, 72);
+  stroke: rgb(255, 0, 0);
   opacity: 30%;
   fill-opacity: 0;
 }
 
 marker polygon.orangeTeam {
-  stroke: rgb(234, 142, 72);
-  fill: rgb(234, 142, 72);
+  stroke: rgb(255, 0, 0);
+  fill: rgb(255, 0, 0);
 }
 
 marker polygon.greyTeam {

@@ -1698,6 +1698,73 @@
                 { "type": "x", "title": "X", "id": "x", "noWidget": true },
                 { "type": "y", "title": "Y", "id": "y", "noWidget": true }
             ]
+        },
+        {
+            "id": "crokinole",
+            "name": "Crokinole",
+            "units": "inches",
+            "specifications": "Crokinole.ca",
+            "dimensions": "26 x 26",
+            "scoringArea": null,
+            "perimeter": "#background",
+            "appearance": {
+                "width": "26",
+                "height": "26",
+                "circleR": "0.78",
+                "polyR": "1.0725",
+                "fontSize": "0.0585rem",
+                "strokeWidth": "0.195px",
+                "heatMapScale": 3.205,
+                "heatMapLowOpacity": 0.01,
+                "heatMapHighOpacity": 0.25
+            },
+            "defaultDetails": [
+                {
+                    "type": "shot-number",
+                    "title": "#",
+                    "id": "shot-number",
+                    "noWidget": true
+                },
+                {
+                    "type": "radio",
+                    "title": "Round",
+                    "id": "period",
+                    "options": [
+                        { "value": "1", "checked": true },
+                        { "value": "2" },
+                        { "value": "3" },
+                        { "value": "4" }
+                    ]
+                },
+                {
+                    "type": "team",
+                    "title": "Team",
+                    "className": "team-select",
+                    "id": "team",
+                    "blueTeamName": "Bottom",
+                    "orangeTeamName": "Top",
+                    "checked": "blue-team-select"
+                },
+                {
+                    "type": "player",
+                    "title": "Player",
+                    "id": "player-input",
+                    "defaultValue": ""
+                },
+                {
+                    "type": "shot-type",
+                    "title": "Type",
+                    "id": "shot-type",
+                    "options": [
+                        { "value": "Open 20", "selected": true },
+                        { "value": "Takeout" },
+                        { "value": "Miss" },
+                        { "value": "Converted 20" }
+                    ]
+                },
+                { "type": "x", "title": "X", "id": "x", "noWidget": true },
+                { "type": "y", "title": "Y", "id": "y", "noWidget": true }
+            ]
         }
     ]
 }

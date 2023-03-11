@@ -1,8 +1,3 @@
 Design data structure
 Make open 20s heatmap first
-change colours to black and red
-add ability to plot into out of bounds
-Change "Player" to comments
-rename to ricochet 20 from converted 20
-add rollout as type. Add touch 20. Takeout 20. Hanger 20. Peel. Hit and stick.
 figure out how to add games and rounds, maybe tennis has?

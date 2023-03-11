@@ -8,6 +8,7 @@
   <circle id="15-circle" cx="50" cy="50" r="15" stroke="white" fill="transparent" stroke-width="0.3" />
   <circle id="10-circle" cx="50" cy="50" r="30" stroke="white" fill="transparent" stroke-width="0.3" />
   <circle id="oob-circle" cx="50" cy="50" r="45" stroke="white" fill="transparent" stroke-width="0.3" />
+  <circle id="rim" cx="50" cy="50" r="50" stroke="black" fill="transparent" stroke-width="0.3" />
   <line id="shooterA-divider-line" x1="18" x2="29" y1="18" y2="29" stroke-width="0.2" stroke="#ccc"/>
   <line id="shooterB-divider-line" x1="82" x2="71" y1="18" y2="29" stroke-width="0.2" stroke="#ccc"/>
   <line id="shooterC-divider-line" x1="82" x2="71" y1="82" y2="71" stroke-width="0.2" stroke="#ccc"/>

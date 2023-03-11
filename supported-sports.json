@@ -1706,7 +1706,7 @@
             "specifications": "Crokinole.ca",
             "dimensions": "26 x 26",
             "scoringArea": null,
-            "perimeter": "#oob-circle",
+            "perimeter": "#rim",
             "appearance": {
                 "width": "220",
                 "height": "100",
@@ -1747,7 +1747,7 @@
                 },
                 {
                     "type": "player",
-                    "title": "Comment",
+                    "title": "Comments",
                     "id": "player-input",
                     "defaultValue": ""
                 },
@@ -1760,7 +1760,11 @@
                         { "value": "Open 20 - 15" },
                         { "value": "Takeout" },
                         { "value": "Miss" },
-                        { "value": "Converted 20" }
+                        { "value": "Touch 20" },
+                        { "value": "Hanger 20" },
+                        { "value": "Peel" },
+                        { "value": "Hit and Stick" },
+                        { "value": "Ricochet 20" }
                     ]
                 },
                 { "type": "x", "title": "X", "id": "x", "noWidget": true },

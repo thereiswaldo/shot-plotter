@@ -1727,8 +1727,18 @@
                 },
                 {
                     "type": "radio",
+                    "title": "Game",
+                    "id": "game",
+                    "options": [
+                        { "value": "1", "checked": true },
+                        { "value": "2" },
+                        { "value": "3" }
+                    ]
+                },
+                {
+                    "type": "radio",
                     "title": "Round",
-                    "id": "period",
+                    "id": "round",
                     "options": [
                         { "value": "1", "checked": true },
                         { "value": "2" },
@@ -1742,8 +1752,8 @@
                     "title": "Player",
                     "className": "team-select",
                     "id": "team",
-                    "blueTeamName": "Bottom",
-                    "orangeTeamName": "Top",
+                    "blueTeamName": "black",
+                    "orangeTeamName": "red",
                     "checked": "blue-team-select"
                 },
                 {
@@ -1754,11 +1764,10 @@
                 },
                 {
                     "type": "shot-type",
-                    "title": "Type",
+                    "title": "Shot Type",
                     "id": "shot-type",
                     "options": [
-                        { "value": "Open 20 - 20", "selected": true },
-                        { "value": "Open 20 - 15" },
+                        { "value": "Open 20", "selected": true },
                         { "value": "Takeout" },
                         { "value": "Miss" },
                         { "value": "Touch 20" },
@@ -1766,6 +1775,17 @@
                         { "value": "Peel" },
                         { "value": "Hit and Stick" },
                         { "value": "Ricochet 20" }
+                    ]
+                },
+                {
+                    "type": "shot-type",
+                    "title": "Result",
+                    "id": "shot-result",
+                    "options": [
+                        { "value": "", "selected": true },
+                        { "value": "20"},
+                        { "value": "15" },
+                        { "value": "Miss" }
                     ]
                 },
                 { "type": "x", "title": "X", "id": "x", "noWidget": true },

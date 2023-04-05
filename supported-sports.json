@@ -1706,7 +1706,7 @@
             "specifications": "Crokinole.ca",
             "dimensions": "26 x 26",
             "scoringArea": null,
-            "perimeter": "#rim",
+            "perimeter": "#transformations",
             "appearance": {
                 "width": "50",
                 "height": "26",
